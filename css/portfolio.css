@@ -165,9 +165,9 @@
 }
 .slideshow li {
 	width: 700px;
-	height: 630px;
+	height: 575px;
 	position: absolute;
-	top: 42%;
+	top: 50%;
 	left: 47.5%;
 	margin: -280px 0 0 -330px;
 	visibility: hidden;
@@ -179,7 +179,7 @@
 	content: '';
 	position: absolute;
 	width: 114%;
-	height: 114%;
+	height: 575px;
 	top: 0;
 	left: 0;
 	background: rgba(255,255,255,0.8);
@@ -194,7 +194,7 @@
 }
 .slideshow figure {
 	width: 100%;
-	height: 100%;
+	height: 475px;
 	background: #fff;
 	border: 50px solid #fff;
 	overflow: hidden;

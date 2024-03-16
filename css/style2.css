@@ -965,6 +965,7 @@ padding: 0 30px;
 
 	overflow: hidden;
 
+	background-color: #000;
 }
 
 .content:last-child {
@@ -1195,13 +1196,10 @@ a.totop-link {
 }
 
 .introduction .inner {
-
 	margin: 47% 0 0 0;
-
 	position:absolute;
-
 	z-index: 99;
-
+	background-color: #00000090;
 }
 
 .introduction span.title {
@@ -1786,18 +1784,12 @@ a.totop-link {
 
 }
 
-.contact-social a i {
-
-	font-size: 25px;
-
-	margin: 0 15px
-
+.contact-social a {
+	margin-right: 15px;
 }
 
-.contact-social a:first-child i {
-
-	margin: 0 15px 0 0
-
+.contact-social a i {
+	font-size: 25px;
 }
 
 .contact-social i {
@@ -1810,6 +1802,17 @@ a.totop-link {
 
 	-o-transition-duration: .2s;
 
+}
+
+.contact-instagram {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	width: fit-content;
+}
+
+.contact-instagram i {
+	margin-right: 10px;
 }
 
 .contact-social i:hover {
